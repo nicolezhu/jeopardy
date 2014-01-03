@@ -1,0 +1,116 @@
+h1 {
+	color: #46b070;
+	font-family: 'Crete Round', serif;
+	font-size: 70px;
+	text-shadow: 1px 1px #BDFCC9;
+	display: block;
+	text-align: center;
+	margin: 30px auto;
+}
+
+a {
+	text-decoration: none;
+	color: #46b070;
+}
+
+body {
+	background-image: url('barrel.png');
+	background-repeat: no-repeat;
+	background-position: 51% 30%;
+	background-color: #5B5B5B;
+}
+
+.score {
+	position: absolute;
+	top: 400px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #EAEAEA;
+	font-size: 26px;
+}
+
+#score {
+	position: absolute;
+	top: 170px;
+	width: 100%;
+	z-index: 0;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #EAEAEA;
+	font-size: 30px;
+}
+
+.question {
+	position: absolute;
+	bottom: 260px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	color: #EAEAEA;
+	font-size: 30px;
+	text-shadow: 1px 1px #000000;
+}
+
+.answer_container {
+	position: absolute;
+	bottom: 160px;
+	width: 100%;
+	text-align: center;
+	margin: 30px;
+}
+
+.answerBox {
+	width: 400px;
+	height: 40px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.button_container {
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+#answerButton {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 15px 20px;
+	background: #46b070;
+	border-top: 1px solid #FFDAB9;
+	border-left: 1px solid #FFDAB9;
+	text-decoration: none;
+	text-shadow: 1px 1px #000000;
+}
+
+#whatis {
+	position: absolute;
+	bottom: 165px;
+	right: 215px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #95a24a;
+	font-style: italic;
+	font-size: 28px;
+	text-shadow: 1px 1px #000000;
+}
+
+#questionmark {
+	position: absolute;
+	bottom: 165px;
+	left: 250px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #95a24a;
+	font-style: italic;
+	font-size: 28px;
+	text-shadow: 1px 1px #000000;
+}
