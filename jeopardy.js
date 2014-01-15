@@ -1,4 +1,4 @@
-// javascript file, say jeopardy.js
+// javascript file
 var jeopardy = (function() {
         var questions = [ {'text': 'Walter and Jesse make meth with this distinctive color',
                            'answer': 'blue',
@@ -9,17 +9,17 @@ var jeopardy = (function() {
                           {'text': 'Jesse confused this poison for rice and beans',
                            'answer': 'ricin',
                            'pointValue' : 100},
-                          {'text': 'Walter refers to himself as this',
-                           'answer': 'the danger',
+                          {'text': 'Walter masquerades as a drug kingpin under this name',
+                           'answer': 'heisenberg',
                            'pointValue' : 100} ,
-                           {'text' : 'Walt Jr. prefers this nickname',
-                           'answer' : 'flynn',
-                           'pointValue' : 100}, 
                            {'text' : 'This fast food chain is not what it seems',
                            'answer' : 'los pollos hermanos',
                            'pointValue' : 100},
                            {'text' : 'Jesse uses this swear word most',
                            'answer' : 'bitch',
+                           'pointValue' : 100},
+                           {'text' : 'Walt Jr. prefers this nickname',
+                           'answer' : 'flynn',
                            'pointValue' : 100},
                            {'text' : 'The initials W.W. stand for Walter White and this famous poet',
                            'answer' : 'walt whitman',
